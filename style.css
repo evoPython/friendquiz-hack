@@ -1,0 +1,37 @@
+
+.fq-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  z-index: 9999;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+.fq-correct {
+  border: 3px solid limegreen !important;
+  border-radius: 12px;
+  box-shadow: 0 0 12px lime !important;
+  transition: all 0.3s ease;
+}
+.fq-error, .fq-debug {
+  position: fixed;
+  right: 20px;
+  z-index: 9999;
+  background: #f44336;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+.fq-debug {
+  background: #2196f3;
+  top: auto;
+  bottom: 20px;
+}

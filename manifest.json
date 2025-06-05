@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "FriendQuiz Answer Highlighter",
+  "version": "1.1",
+  "description": "Highlight correct answers on FriendQuiz quizzes with API manipulation.",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["https://friendquiz.me/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://friendquiz.me/quiz/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  }
+}
+
